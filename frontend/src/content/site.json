@@ -66,33 +66,6 @@
     { "src": "/stills/19.jpg",     "alt": "On-set still 2" },
     { "src": "/stills/20.jpg",     "alt": "On-set still 2" }
   ],
-  
-  "headshots": [
-    { "src": "/headshots/matildasrk.jpg",    "alt": "Neutral clean look" },
-    { "src": "/headshots/laurie.jpg",    "alt": "Dramatic look (moody)" },
-    { "src": "/headshots/passport.jpg",    "alt": "Neutral clean look" },
-    { "src": "/headshots/AroundIn80.jpg", "alt": "Primary commercial headshot (smile)" },
-    { "src": "/stills/1.jpg",     "alt": "On-set still 1" },
-    { "src": "/stills/2.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/3.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/4.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/5.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/6.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/7.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/8.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/9.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/10.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/11.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/12.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/13.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/14.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/15.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/16.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/17.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/18.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/19.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/20.jpg",     "alt": "On-set still 2" }
-  ],
 
   "reel": {
     "youtube": "https://www.youtube.com/watch?v=XXXXXXXXXXX"

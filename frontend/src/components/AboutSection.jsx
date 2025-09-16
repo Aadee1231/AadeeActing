@@ -3,8 +3,8 @@ import site from '@/content/site.json'
 
 export default function AboutSection(){
   const portrait =
-    site.heroHeadshots?.[0]?.src ||
-    site.gallery?.[0]?.src ||
+    site.heroHeadshots?.[3]?.src ||
+    site.gallery?.[Random]?.src ||
     '/headshots/primary.jpg'
 
   return (
