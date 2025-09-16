@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth fonts + base tweaks */
 html { scroll-behavior: smooth; }
 body { @apply bg-neutral-950 text-neutral-100 antialiased; }
 
+/* Reusable utility classes */
 .section { @apply container py-16 md:py-24; }
 .title   { @apply font-display text-3xl md:text-5xl tracking-tight; }
 .subtitle{ @apply text-neutral-300 text-base md:text-lg; }
@@ -13,4 +15,6 @@ body { @apply bg-neutral-950 text-neutral-100 antialiased; }
 .btn-primary { @apply btn bg-brand-500 hover:bg-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300; }
 .btn-ghost   { @apply btn bg-white/5 hover:bg-white/10; }
 .badge   { @apply inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/10 text-xs; }
+
+/* Fancy gradient overlay for hero */
 .hero-gradient { background: radial-gradient(1200px 400px at 50% -10%, rgba(94,106,247,.30), transparent), radial-gradient(800px 300px at 80% 20%, rgba(255,255,255,.05), transparent); }
