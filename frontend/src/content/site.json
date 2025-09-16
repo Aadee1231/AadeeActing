@@ -1,0 +1,62 @@
+{
+  "name": "Aadee Chheda",
+  "tagline": "Actor | Voice | Movement",
+  "location": "Raleigh \u2022 NYC \u2022 Atlanta",
+  "email": "adimchheda@gmail.com",
+  "phone": "+1 (704) 930-5548",
+  "resumeUrl": "/Aadee_Chheda_Resume.pdf",
+  "socials": {
+    "instagram": "https://instagram.com/",
+    "youtube": "https://youtube.com/",
+    "imdb": "https://imdb.com/"
+  },
+  "skills": [
+    "Stage combat",
+    "RP/British dialects",
+    "Baritone",
+    "Contemporary dance",
+    "Improv"
+  ],
+  "credits": [
+    {
+      "role": "Lead",
+      "title": "Short Film \u2014 *Second Chance*",
+      "year": "2025"
+    },
+    {
+      "role": "Supporting",
+      "title": "Web Series \u2014 *Campus Nights*",
+      "year": "2024"
+    },
+    {
+      "role": "Stage",
+      "title": "*Much Ado About Nothing* (Claudio)",
+      "year": "2024"
+    }
+  ],
+  "headshots": [
+    {
+      "src": "/headshots/primary.jpg",
+      "alt": "Primary headshot"
+    },
+    {
+      "src": "/headshots/alt1.jpg",
+      "alt": "Commercial look"
+    },
+    {
+      "src": "/headshots/alt2.jpg",
+      "alt": "Dramatic look"
+    },
+    {
+      "src": "/stills/still1.jpg",
+      "alt": "Set still 1"
+    },
+    {
+      "src": "/stills/still2.jpg",
+      "alt": "Set still 2"
+    }
+  ],
+  "reel": {
+    "youtube": "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+  }
+}

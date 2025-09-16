@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-neutral-950 text-neutral-100 antialiased; }
+
+.section { @apply container py-16 md:py-24; }
+.title   { @apply font-display text-3xl md:text-5xl tracking-tight; }
+.subtitle{ @apply text-neutral-300 text-base md:text-lg; }
+.card    { @apply bg-neutral-900/60 backdrop-blur rounded-2xl border border-white/10 shadow shadow-black/30; }
+.btn     { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm md:text-base font-medium transition; }
+.btn-primary { @apply btn bg-brand-500 hover:bg-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300; }
+.btn-ghost   { @apply btn bg-white/5 hover:bg-white/10; }
+.badge   { @apply inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/10 text-xs; }
+.hero-gradient { background: radial-gradient(1200px 400px at 50% -10%, rgba(94,106,247,.30), transparent), radial-gradient(800px 300px at 80% 20%, rgba(255,255,255,.05), transparent); }
