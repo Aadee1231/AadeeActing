@@ -1,15 +1,20 @@
 {
   "name": "Aadee Chheda",
-  "tagline": "Actor | Voice | Movement",
-  "location": "Raleigh \u2022 NYC \u2022 Atlanta",
+  "tagline": "Actor | Voice | Dance",
+  "location": "Raleigh • NYC • Atlanta",
   "email": "adimchheda@gmail.com",
-  "phone": "+1 (704) 930-5548",
   "resumeUrl": "/Aadee_Chheda_Resume.pdf",
   "socials": {
-    "instagram": "https://instagram.com/",
-    "youtube": "https://youtube.com/",
-    "imdb": "https://imdb.com/"
+    "instagram": "https://instagram.com/your-handle",
+    "youtube": "https://youtube.com/@your-handle",
+    "imdb": "https://www.imdb.com/name/xxxxxxxx/"
   },
+
+  "about": {
+    "p1": "Aadee is a film, web, and stage actor with training in movement and vocal nuance. Grounded presence, collaborative on set, comfortable with both comedy and drama.",
+    "p2": "Dialects include General American, RP, and light South Asian inflections. Drawn to contemporary, character-driven stories."
+  },
+
   "skills": [
     "Stage combat",
     "RP/British dialects",
@@ -17,45 +22,28 @@
     "Contemporary dance",
     "Improv"
   ],
+
   "credits": [
-    {
-      "role": "Lead",
-      "title": "Short Film \u2014 *Second Chance*",
-      "year": "2025"
-    },
-    {
-      "role": "Supporting",
-      "title": "Web Series \u2014 *Campus Nights*",
-      "year": "2024"
-    },
-    {
-      "role": "Stage",
-      "title": "*Much Ado About Nothing* (Claudio)",
-      "year": "2024"
-    }
+    { "role": "Lead",       "title": "Short Film — *Second Chance*",           "year": "2025" },
+    { "role": "Supporting", "title": "Web Series — *Campus Nights*",           "year": "2024" },
+    { "role": "Stage",      "title": "*Much Ado About Nothing* (Claudio)",     "year": "2024" }
   ],
+
+  "training": [
+    { "area": "On-Camera Scene Study", "teacher": "Coach Name", "place": "Studio/School", "years": "2024–present" },
+    { "area": "Meisner Intensive",     "teacher": "Coach Name", "place": "Conservatory",  "years": "2023" },
+    { "area": "Voice (Baritone)",      "teacher": "Coach Name", "place": "Studio",        "years": "3 yrs" },
+    { "area": "Movement / Stage Combat","teacher": "Fight Director", "place": "Workshop", "years": "" }
+  ],
+
   "headshots": [
-    {
-      "src": "/headshots/primary.jpg",
-      "alt": "Primary headshot"
-    },
-    {
-      "src": "/headshots/alt1.jpg",
-      "alt": "Commercial look"
-    },
-    {
-      "src": "/headshots/alt2.jpg",
-      "alt": "Dramatic look"
-    },
-    {
-      "src": "/stills/still1.jpg",
-      "alt": "Set still 1"
-    },
-    {
-      "src": "/stills/still2.jpg",
-      "alt": "Set still 2"
-    }
+    { "src": "/headshots/primary.jpg", "alt": "Primary commercial headshot (smile)" },
+    { "src": "/headshots/alt1.jpg",    "alt": "Dramatic look (moody)" },
+    { "src": "/headshots/alt2.jpg",    "alt": "Neutral clean look" },
+    { "src": "/stills/still1.jpg",     "alt": "On-set still 1" },
+    { "src": "/stills/still2.jpg",     "alt": "On-set still 2" }
   ],
+
   "reel": {
     "youtube": "https://www.youtube.com/watch?v=XXXXXXXXXXX"
   }

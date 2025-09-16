@@ -6,17 +6,21 @@ export default {
       container: { center: true, padding: '1rem' },
       fontFamily: {
         sans: ['Inter','system-ui','Segoe UI','Roboto','Helvetica','Arial','sans-serif'],
-        display: ['Playfair Display','Georgia','serif']
+        display: ['Playfair Display','Georgia','serif'],
       },
+      // 🔴 red brand palette
       colors: {
         brand: {
-          50:'#f5f7ff',100:'#ebefff',200:'#cfd8ff',300:'#aab9ff',400:'#7d8bff',
-          500:'#5e6af7',600:'#4a52d6',700:'#3c41a8',800:'#333887',900:'#2d316f'
+          50:'#fff1f1',100:'#ffe4e4',200:'#ffc8c8',300:'#ffa0a0',
+          400:'#ff6b6b',500:'#ef4444',600:'#dc2626',700:'#b91c1c',
+          800:'#991b1b',900:'#7f1d1d'
         }
       },
-      boxShadow: { glow: '0 0 0 4px rgba(94,106,247,0.12)' },
+      boxShadow: { glow: '0 0 0 4px rgba(239,68,68,0.15)' },
       backgroundImage: {
-        'grid-radial': 'radial-gradient(circle at 20% 20%, rgba(94,106,247,.15) 0 15%, transparent 15%), radial-gradient(circle at 80% 0%, rgba(255,255,255,.1) 0 15%, transparent 15%)',
+        // used via class: bg-grid-radial
+        'grid-radial':
+          'radial-gradient(circle at 18% 22%, rgba(239,68,68,.16) 0 18%, transparent 18%), radial-gradient(circle at 82% 0%, rgba(255,255,255,.05) 0 18%, transparent 18%)',
       }
     },
   },
