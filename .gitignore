@@ -1,0 +1,17 @@
+#Node/Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+frontend/.vercel/
+
+#Python/Modal
+backend/.venv/
+backend/__pycache__/
+backend/.mypy_cache/
+backend/.env*
+
+#OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
