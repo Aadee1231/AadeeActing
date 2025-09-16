@@ -12,7 +12,9 @@ app = FastAPI()
 
 origins = [
     os.getenv('FRONTEND_ORIGIN', 'http://localhost:5173'),
-    os.getenv('PROD_ORIGIN', 'https://aadeeacting.vercel.app')
+    os.getenv('PROD_ORIGIN', 'https://aadeeacting.vercel.app'),
+    os.getenv('PROD_ORIGIN', 'https://aadeec.com'),
+    os.getenv('PROD_ORIGIN_ALT', 'https://www.aadeec.com')
 ]
 app.add_middleware(
     CORSMiddleware,
