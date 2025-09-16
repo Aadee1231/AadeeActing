@@ -10,8 +10,17 @@ FROM_EMAIL = os.getenv('FROM_EMAIL', 'portfolio@yourdomain.com')
 
 app = FastAPI()
 
-origins = [os.getenv('FRONTEND_ORIGIN', 'http://localhost:5173'), os.getenv('PROD_ORIGIN', 'https://aadeeacting.vercel.app')]
-app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+origins = [
+    os.getenv('FRONTEND_ORIGIN', 'http://localhost:5173'),
+    os.getenv('PROD_ORIGIN', 'https://aadeeacting.vercel.app')
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*'],
+)
 
 class Contact(BaseModel):
     name: str
@@ -37,4 +46,4 @@ async def contact(c: Contact):
         }
     )
     r.raise_for_status()
-    return { 'ok': True }
+    return {'ok': True}
