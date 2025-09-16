@@ -4,6 +4,8 @@ import Reveal from './Reveal'
 import ParallaxBubbles from './ParallaxBubbles'
 
 export default function Hero(){
+  const picks = site.heroHeadshots || []
+
   return (
     <section id="home" className="section relative overflow-hidden hero-gradient">
       <ParallaxBubbles />
@@ -18,10 +20,11 @@ export default function Hero(){
         </div>
       </Reveal>
 
+      {/* Hero tiles (curated picks only) */}
       <Reveal delay={.1} className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto">
-        {[0,1,2,3].map((i)=> (
-          <div key={i} className="aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 bg-white/5">
-            <img src={site.headshots[i]?.src || '/headshots/primary.jpg'} alt={site.headshots[i]?.alt || 'Headshot'} className="h-full w-full object-cover" loading="eager" />
+        {picks.map((h, i) => (
+          <div key={h.src + i} className="aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 bg-white/5">
+            <img src={h.src} alt={h.alt || 'Headshot'} className="h-full w-full object-cover" loading="eager" />
           </div>
         ))}
       </Reveal>
