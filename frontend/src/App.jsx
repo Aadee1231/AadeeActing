@@ -8,11 +8,13 @@ import HeadshotGrid from '@/components/HeadshotGrid'
 import ContactForm from '@/components/ContactForm'
 import Reveal from '@/components/Reveal'
 import site from '@/content/site.json'
+import { Toaster } from 'react-hot-toast'
 
 export default function App(){
   return (
     <div className="min-h-dvh bg-grid-radial grain">
       <Navbar />
+      <Toaster position="top-center" />
 
       {/* HERO */}
       <Hero />

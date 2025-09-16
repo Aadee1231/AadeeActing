@@ -3,7 +3,10 @@
   "tagline": "Actor | Voice | Dance",
   "location": "Raleigh • NYC • Atlanta",
   "email": "adimchheda@gmail.com",
-  "resumeUrl": "/Aadee_Chheda_Resume.pdf",
+  "phone": "+1-704-930-5548", 
+
+  "resumeUrl": "/Aadee Acting Resume.pdf",
+
   "socials": {
     "instagram": "https://instagram.com/your-handle",
     "youtube": "https://youtube.com/@your-handle",
@@ -11,63 +14,79 @@
   },
 
   "about": {
-    "p1": "Aadee is a film, web, and stage actor with training in movement and vocal nuance. Grounded presence, collaborative on set, comfortable with both comedy and drama.",
-    "p2": "Dialects include General American, RP, and light South Asian inflections. Drawn to contemporary, character-driven stories."
+    "p1": "Dynamic, versatile actor working across stage and film with strong classical and contemporary grounding. Comfortable leading comedy and drama, with Shakespeare and musical theatre experience, trained in stage combat and multiple dance styles.",
+    "p2": "Recent work includes co-lead and lead roles in Shakespeare and modern plays, plus comedic musical features. Dialects include General American and RP; movement and chemistry work support camera-ready performance."
   },
 
   "skills": [
-    "Stage combat",
-    "RP/British dialects",
-    "Baritone",
-    "Contemporary dance",
-    "Improv"
+    "Stage combat & sword work",
+    "Improv (teams/clubs)",
+    "Private voice training",
+    "Tap Dance",
+    "Social Dance (Foxtrot, Salsa, Cha-Cha, Waltz, Rumba, Shag)",
+    "Indian Semi-Classical & Bollywood dance (7 yrs)",
+    "Flute, Drum, and Piano trained"
   ],
 
   "credits": [
-    { "role": "Lead",       "title": "Short Film — *Second Chance*",           "year": "2025" },
-    { "role": "Supporting", "title": "Web Series — *Campus Nights*",           "year": "2024" },
-    { "role": "Stage",      "title": "*Much Ado About Nothing* (Claudio)",     "year": "2024" }
+    { "role": "Co-Lead — Passepartout", "title": "Around the World in 80 Days (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Lead — Orsino",         "title": "Shakespeare’s Twelfth Night (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Lead — Laurie",         "title": "Little Women (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Lead — Leon Tolchinsky","title": "Fools (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Leading Comedic — Rudolpho", "title": "Matilda: The Musical (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Lead — Orhan",          "title": "Where Words Once Were (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Comedic — Verges",      "title": "Much Ado About Nothing (Stage) — Charlotte, NC", "year": "" },
+    { "role": "Purser",                "title": "Anything Goes (Stage) — Charlotte, NC", "year": "" },
+
+    { "role": "Lead — Laurie Laurence","title": "You On The Moors Now (Stage) — Raleigh, NC", "year": "" },
+    { "role": "Supporting Lead — Scratchy", "title": "Mr. Burns: A Post-Electric Play (Stage) — Raleigh, NC", "year": "" }
   ],
 
   "training": [
-    { "area": "On-Camera Scene Study", "teacher": "Coach Name", "place": "Studio/School", "years": "2024–present" },
-    { "area": "Meisner Intensive",     "teacher": "Coach Name", "place": "Conservatory",  "years": "2023" },
-    { "area": "Voice (Baritone)",      "teacher": "Coach Name", "place": "Studio",        "years": "3 yrs" },
-    { "area": "Movement / Stage Combat","teacher": "Fight Director", "place": "Workshop", "years": "" }
+    { "area": "Shakespearean Acting & Voice", "teacher": "", "place": "Coaching/Studio", "years": "2025–2026" },
+    { "area": "Intimacy / Stage Chemistry",   "teacher": "", "place": "Workshop/Studio", "years": "2024–2025" },
+    { "area": "Social Dance",                 "teacher": "", "place": "Studio", "years": "2024–2025" },
+    { "area": "Tap Dance (Intro)",            "teacher": "", "place": "Studio", "years": "2024–2025" },
+    { "area": "Stage Combat",                 "teacher": "", "place": "Fight / Martial Arts Training", "years": "2023–2024" },
+
+    { "area": "SOTT Focus — Broadway Dancing/Singing",         "teacher": "", "place": "Program", "years": "2021–2022" },
+    { "area": "SOTT Focus — Mastering the Monologue",          "teacher": "", "place": "Program", "years": "2020–2021" },
+    { "area": "SOTT Focus — Broadway Styles (jazz/contemporary/ballet)", "teacher": "", "place": "Program", "years": "2019–2020" },
+    { "area": "SOTT Focus — Broadway Intensive",               "teacher": "", "place": "Program", "years": "2018–2019" },
+    { "area": "SOTT Focus — Singing the Lead/Broadway",        "teacher": "", "place": "Program", "years": "2017–2018" },
+
+    { "area": "Indian Semi-Classical & Bollywood Dance", "teacher": "", "place": "Nrityangan Cultural Academy", "years": "7 years • Ovens Auditorium & Belk Theater shows" }
   ],
 
-  
   "heroHeadshots": [
-    { "src": "/headshots/matildasrk.jpg",    "alt": "Neutral clean look" },
-    { "src": "/headshots/laurie.jpg",    "alt": "Dramatic look (moody)" },
-    { "src": "/headshots/passport.jpg",    "alt": "Neutral clean look" },
+    { "src": "/headshots/matildasrk.jpg", "alt": "Neutral clean look" },
+    { "src": "/headshots/laurie.jpg",     "alt": "Dramatic look (moody)" },
+    { "src": "/headshots/passport.jpg",   "alt": "Neutral clean look" },
     { "src": "/headshots/AroundIn80.jpg", "alt": "Primary commercial headshot (smile)" }
   ],
 
   "gallery": [
-    { "src": "/stills/1.jpg",     "alt": "On-set still 1" },
-    { "src": "/stills/2.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/3.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/4.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/5.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/6.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/7.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/8.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/9.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/10.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/11.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/12.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/13.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/14.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/15.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/16.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/17.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/18.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/19.jpg",     "alt": "On-set still 2" },
-    { "src": "/stills/20.jpg",     "alt": "On-set still 2" }
+    { "src": "/stills/1.jpg",  "alt": "On-set still 1" },
+    { "src": "/stills/2.jpg",  "alt": "On-set still 2" },
+    { "src": "/stills/3.jpg",  "alt": "On-set still 3" },
+    { "src": "/stills/4.jpg",  "alt": "On-set still 4" },
+    { "src": "/stills/5.jpg",  "alt": "On-set still 5" },
+    { "src": "/stills/6.jpg",  "alt": "On-set still 6" },
+    { "src": "/stills/7.jpg",  "alt": "On-set still 7" },
+    { "src": "/stills/8.jpg",  "alt": "On-set still 8" },
+    { "src": "/stills/9.jpg",  "alt": "On-set still 9" },
+    { "src": "/stills/10.jpg", "alt": "On-set still 10" },
+    { "src": "/stills/11.jpg", "alt": "On-set still 11" },
+    { "src": "/stills/12.jpg", "alt": "On-set still 12" },
+    { "src": "/stills/13.jpg", "alt": "On-set still 13" },
+    { "src": "/stills/14.jpg", "alt": "On-set still 14" },
+    { "src": "/stills/15.jpg", "alt": "On-set still 15" },
+    { "src": "/stills/16.jpg", "alt": "On-set still 16" },
+    { "src": "/stills/17.jpg", "alt": "On-set still 17" },
+    { "src": "/stills/18.jpg", "alt": "On-set still 18" },
+    { "src": "/stills/19.jpg", "alt": "On-set still 19" },
+    { "src": "/stills/20.jpg", "alt": "On-set still 20" }
   ],
 
-  "reel": {
-    "youtube": "https://www.youtube.com/watch?v=XXXXXXXXXXX"
-  }
+  "reel": { "youtube": "https://www.youtube.com/watch?v=XXXXXXXXXXX" }
 }
