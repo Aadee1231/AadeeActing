@@ -5,7 +5,7 @@
   "email": "adimchheda@gmail.com",
   "phone": "+1-704-930-5548", 
 
-  "resumeUrl": "/Aadee Acting Resume.pdf",
+  "resumeUrl": "/Aadee_Acting_Resume.pdf",
 
   "socials": {
     "instagram": "https://instagram.com/your-handle",
@@ -29,23 +29,22 @@
   ],
 
   "credits": [
-    { "role": "Co-Lead — Passepartout", "title": "Around the World in 80 Days (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Lead — Orsino",         "title": "Shakespeare’s Twelfth Night (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Lead — Laurie",         "title": "Little Women (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Lead — Leon Tolchinsky","title": "Fools (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Leading Comedic — Rudolpho", "title": "Matilda: The Musical (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Lead — Orhan",          "title": "Where Words Once Were (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Comedic — Verges",      "title": "Much Ado About Nothing (Stage) — Charlotte, NC", "year": "" },
-    { "role": "Purser",                "title": "Anything Goes (Stage) — Charlotte, NC", "year": "" },
-
-    { "role": "Lead — Laurie Laurence","title": "You On The Moors Now (Stage) — Raleigh, NC", "year": "" },
-    { "role": "Supporting Lead — Scratchy", "title": "Mr. Burns: A Post-Electric Play (Stage) — Raleigh, NC", "year": "" }
+    { "role": "Traveled around the world in 80 days facing adventures such as fighting priests and shooting bandits.", "title": "Around the World in 80 Days — Passepartout", "year": "Co-Lead" },
+    { "role": "The melancholy and dramatically passionate Duke of Illyria, who navigates a comedic love triangle  wdriven by unrequited affection and mistaken identity",         "title": "Shakespeare’s Twelfth Night — Orsino", "year": "Lead" },
+    { "role": "Played the romantic and comedic role of Theodore Laurence, a rich neighbor who becomes part of the March family.",         "title": "Little Women — Laurie", "year": "Lead" },
+    { "role": "Portrayed a schoolteacher navigating a cursed town where everyone is “extremely stupid.”","title": "Fools — Leon Tolchinsky", "year": "Lead" },
+    { "role": "Played a curious young boy in a dystopian world where language is rationed.",          "title": "Where Words Once Were — Orhan", "year": "Lead" },
+    { "role": "Played the dramatic and comedic role of Theodore Laurence in this sequel to ‘Little Women’","title": "You On The Moors Now — Laurie Laurence", "year": "Lead" },
+    { "role": "Played Mrs. Wormwood’s flamboyant Italian salsa dance instructor.", "title": "Matilda: The Musical — Rudolpho", "year": "Supporting Leading Comedic" },
+    { "role": "Played a comedic role in this dystopian production about survivors recounting stories post-apocalypse.", "title": "Mr. Burns: A Post-Electric Play — Scratchy", "year": "Supporting Lead" },
+    { "role": "Assisted the police chief in a Shakespearean tale of love and jealousy. ",      "title": "Much Ado About Nothing — Verges", "year": "Comedic" },
+    { "role": "Portrayed the quirky purser in this comedic musical set on a ship.",                "title": "Anything Goes — Purser", "year": "Comedic" }
   ],
 
   "training": [
     { "area": "Shakespearean Acting & Voice", "teacher": "", "place": "Coaching/Studio", "years": "2025–2026" },
     { "area": "Intimacy / Stage Chemistry",   "teacher": "", "place": "Workshop/Studio", "years": "2024–2025" },
-    { "area": "Social Dance",                 "teacher": "", "place": "Studio", "years": "2024–2025" },
+    { "area": "Social Dance",                 "teacher": "", "place": "Foxtrot, Salsa, Cha-Cha, Waltz, Rumba, Shag, and more", "years": "2024–2025" },
     { "area": "Tap Dance (Intro)",            "teacher": "", "place": "Studio", "years": "2024–2025" },
     { "area": "Stage Combat",                 "teacher": "", "place": "Fight / Martial Arts Training", "years": "2023–2024" },
 

@@ -61,3 +61,13 @@ body { @apply bg-neutral-950 text-neutral-100 antialiased; }
 
 /* chips for skills */
 .chip { @apply inline-flex items-center gap-1 px-3 py-1 rounded-full bg-brand-600/20 text-xs border border-brand-600/30; }
+
+/* --- CREDIT PILLS --- */
+.pill { @apply inline-flex items-center justify-center rounded-full
+  px-2.5 py-1 text-[11px] font-semibold leading-none whitespace-nowrap
+  border backdrop-blur; }
+
+.pill--lead       { @apply bg-brand-600/20  border-brand-500/40  text-brand-200; }
+.pill--co         { @apply bg-sky-500/15    border-sky-400/30    text-sky-300; }
+.pill--support    { @apply bg-amber-500/15  border-amber-500/30  text-amber-200; }
+.pill--comedic    { @apply bg-rose-500/15   border-rose-400/30   text-rose-200; }
