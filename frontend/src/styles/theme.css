@@ -71,3 +71,67 @@ body { @apply bg-neutral-950 text-neutral-100 antialiased; }
 .pill--co         { @apply bg-sky-500/15    border-sky-400/30    text-sky-300; }
 .pill--support    { @apply bg-amber-500/15  border-amber-500/30  text-amber-200; }
 .pill--comedic    { @apply bg-rose-500/15   border-rose-400/30   text-rose-200; }
+
+/* === BRIGHTER, REDDER THEME === */
+
+/* Whole-site background (more red + subtle dots) */
+.bg-theme {
+  background-color: #0a0b0f;
+  background-image:
+    radial-gradient(1200px 520px at -10% -10%, rgba(220,38,38,.35), transparent 60%),
+    radial-gradient(1000px 420px at 110% 0%, rgba(239,68,68,.20), transparent 60%),
+    radial-gradient(900px 340px at 50% 120%, rgba(255,255,255,.05), transparent 60%),
+    radial-gradient(circle at 12px 12px, rgba(255,255,255,.04) 1px, transparent 1px);
+  background-size: auto, auto, auto, 16px 16px;
+}
+
+/* Hero sweep: stronger red + gentle white sheen */
+.hero-gradient {
+  background:
+    radial-gradient(1200px 480px at 35% -10%, rgba(239,68,68,.40), transparent 60%),
+    radial-gradient(900px 360px at 80% 8%, rgba(255,255,255,.08), transparent 55%);
+}
+
+/* Alternate sections get a soft lift, red gets a bolder tint */
+.section-alt {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,0));
+}
+.section-red {
+  background:
+    radial-gradient(800px 300px at 70% 0%, rgba(239,68,68,.22), transparent 65%),
+    linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+}
+
+/* Titles: subtle gradient text to pop on dark bg */
+.title, .title-home {
+  background-image: linear-gradient(to bottom, #fff, #ffe2e2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Cards: a hair lighter with a red glow on hover */
+.card {
+  @apply bg-neutral-900/55 border border-white/10 rounded-2xl shadow shadow-black/30;
+  transition: box-shadow .25s ease, border-color .25s ease, transform .25s ease;
+}
+.card:hover {
+  box-shadow: 0 6px 32px rgba(239,68,68,.18), 0 1px 0 rgba(255,255,255,.05) inset;
+  border-color: rgba(239,68,68,.35);
+  transform: translateY(-1px);
+}
+
+/* Buttons: real red gradient */
+.btn-primary {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  @apply text-white;
+  box-shadow: 0 8px 24px rgba(239,68,68,.30);
+}
+.btn-primary:hover {
+  filter: brightness(1.05);
+  box-shadow: 0 10px 32px rgba(239,68,68,.36);
+}
+
+/* Pills already exist; keep them crisp */
+.pill { @apply whitespace-nowrap leading-none; }

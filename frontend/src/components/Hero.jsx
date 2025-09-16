@@ -11,7 +11,7 @@ export default function Hero(){
       <ParallaxBubbles />
       <Reveal>
         <div className="text-center max-w-3xl mx-auto relative">
-          <h1 className="title-home">{site.name}</h1>
+          <h1 className="title-home drop-shadow-[0_4px_20px_rgba(239,68,68,.35)]">{site.name}</h1>
           <p className="mt-3 subtitle">{site.tagline} • {site.location}</p>
           <div className="mt-6 flex items-center justify-center gap-3">
             <a href="#reel" className="btn-primary"><Play size={18} className="mr-2" />Watch Reel</a>

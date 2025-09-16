@@ -12,7 +12,7 @@ import { Toaster } from 'react-hot-toast'
 
 export default function App(){
   return (
-    <div className="min-h-dvh bg-grid-radial grain">
+    <div className="min-h-dvh bg-theme">
       <Navbar />
       <Toaster position="top-center" />
 
