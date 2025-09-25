@@ -135,3 +135,19 @@ body { @apply bg-neutral-950 text-neutral-100 antialiased; }
 
 /* Pills already exist; keep them crisp */
 .pill { @apply whitespace-nowrap leading-none; }
+
+/* --- Warm bottom accents (red → orange) --- */
+.section-warm {
+  position: relative;
+  isolation: isolate;
+}
+.section-warm::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background:
+    radial-gradient(900px 300px at 20% 110%, rgba(249,115,22,.20), transparent 60%), /* orange glow bottom-left */
+    radial-gradient(900px 260px at 85% 120%, rgba(239,68,68,.22),  transparent 60%), /* red glow bottom-right */
+    linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+}

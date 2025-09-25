@@ -10,7 +10,7 @@ export default function Hero(){
     <section id="home" className="section relative overflow-hidden hero-gradient">
       <ParallaxBubbles />
       <Reveal>
-        <div className="text-center max-w-3xl mx-auto relative">
+        <div className="text-center max-w-3xl mx-auto relative z-10">
           <h1 className="title-home drop-shadow-[0_4px_20px_rgba(239,68,68,.35)]">{site.name}</h1>
           <p className="mt-3 subtitle">{site.tagline} • {site.location}</p>
           <div className="mt-6 flex items-center justify-center gap-3">
@@ -21,7 +21,7 @@ export default function Hero(){
       </Reveal>
 
       {/* Hero tiles (curated picks only) */}
-      <Reveal delay={.1} className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto">
+      <Reveal delay={.1} className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto relative z-10">
         {picks.map((h, i) => (
           <div key={h.src + i} className="aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 bg-white/5">
             <img src={h.src} alt={h.alt || 'Headshot'} className="h-full w-full object-cover" loading="eager" />
