@@ -8,7 +8,7 @@ export default function AboutSection(){
     '/headshots/primary.jpg'
 
   return (
-    <section id="about" className="section section-alt relative">
+    <section id="about" className="section section-alt relative section-red">
       <div className="grid md:grid-cols-2 gap-8 items-start">
         <Reveal className="order-2 md:order-1">
           <img src={portrait} alt="Portrait" className="rounded-2xl border border-white/10 shadow-lg gradient-border" />

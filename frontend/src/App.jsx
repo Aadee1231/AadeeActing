@@ -37,7 +37,7 @@ export default function App(){
       </section>
 
       {/* TRAINING (alt background) */}
-      <section id="training" className="section section-warm">
+      <section id="training" className="section section-warm section-red">
         <Reveal><h2 className="title">Training</h2></Reveal>
         <Reveal delay={.1}>
           <ul className="mt-6 grid md:grid-cols-2 gap-3">
@@ -64,7 +64,7 @@ export default function App(){
       </section>
 
       {/* CONTACT (alt) */}
-      <section id="contact" className="section section-warm">
+      <section id="contact" className="section section-warm section-red">
         <Reveal><h2 className="title">Contact</h2></Reveal>
         <Reveal delay={.05}><p className="subtitle mt-2">For bookings and auditions. Based in {site.location}.</p></Reveal>
         <Reveal delay={.1} className="mt-6"><ContactForm /></Reveal>
